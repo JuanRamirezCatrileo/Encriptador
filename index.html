@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img class="header-logo" src="img/LogoAlura.png" alt="LogoAlura">
+        </div>
+        
+    </header>
+    <main>
+        <div class="main">
+            <div class="left">
+                <textarea  class="texto" name="" id="ingresotexto" cols="30" rows="10" placeholder="Ingrese el Texto Aqui"></textarea>
+                <div class="left-footer">
+                    <img src="img/Vector.png" alt="Vector">
+                    <span class="left-info">Solo letras minúsculas y sin acentos</span>
+                    <div class="left-button">
+                        <button id="botonencriptar" class="boton-encriptar">Encriptar</button>
+                        <button id="botondesencriptar" class="boton-desencriptar">Desenciptador</button>
+                    </div>
+                </div>
+            </div>
+            <div id="right" class="right ajustar">
+                <img id="muneco" class="munheco" src="img/Muñeco.png" alt="">
+                
+                    <textarea id="mensajefinal" class="mensaje-final" placeholder="Ningún mensaje fue encontrado" readonly></textarea>
+                    <p id="info" class="right-info">Ingresa el texto que desees encriptar o desencriptar.</p>
+                
+                
+                <button id="botoncopiar" class="copiar oculto">copiar</button>
+            </div>
+        </div>
+        
+    </main>
+    <footer class="footer">
+        <div class="logos-j">
+        <a href="https://www.linkedin.com/in/juan-ramirez-catrileo-a39945226/"> 
+            <img src="img/linkedin.png">
+        </a>
+        <a href="https://github.com/JuanRamirezCatrileo"> 
+            <img src="img/github.png">
+        </a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
